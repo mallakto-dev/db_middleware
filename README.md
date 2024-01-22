@@ -67,9 +67,11 @@ It should match with your linux username
 
 `nano .env`
 
-```SECRET_KEY=<generate_secret_key>
+```
+SECRET_KEY=<generate_secret_key>
 
-DATABASE_URL=postgresql://<username>:<password>@localhost:5432/<database_name>```
+DATABASE_URL=postgresql://<username>:<password>@localhost:5432/<database_name>
+```
 
 
 ## Run Server
