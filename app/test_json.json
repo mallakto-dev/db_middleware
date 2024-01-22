@@ -1,0 +1,17 @@
+{
+  "delivery": "доставка",
+  "total": 123,
+  "nameInput": "Andrew",
+  "phone": "79999999999",
+  "address": "",
+  "order": [
+    {
+      "title": "тофу",
+      "quantity": "1"
+    },
+    {
+      "title": "сейтан",
+      "quantity": "1"
+    }
+    ]
+}
