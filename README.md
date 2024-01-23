@@ -50,6 +50,13 @@ It should match with your linux username
 
 `psql -d <database_name> -f database.sql`
 
+### set password for your user
+
+`psql <database_name>`
+
+`ALTER ROLE <username> WITH PASSWORD '<password>'`
+
+`\q`
 
 ## 3. Preparing gunicorn server
 
@@ -68,8 +75,6 @@ It should match with your linux username
 `nano .env`
 
 ```
-SECRET_KEY=<generate_secret_key>
-
 DATABASE_URL=postgresql://<username>:<password>@localhost:5432/<database_name>
 ```
 

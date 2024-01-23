@@ -1,12 +1,7 @@
 from flask import Flask, request
-import os
-from dotenv import load_dotenv
 import app.db as db
 
 app = Flask(__name__)
-load_dotenv()
-app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
-
 
 @app.post('/add')
 def add_order():
